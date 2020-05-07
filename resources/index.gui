@@ -1,3 +1,79 @@
-<svg>
-  <rect id="background" />
+<svg class="background">
+  
+  
+   <section>
+    <arc x="50%-110" y="50%-110" width="220" height="220" fill="fb-extra-dark-gray"
+      arc-width="10" start-angle="0" sweep-angle="360"/>
+    <arc id="countdown-arc" x="50%-110" y="50%-110" width="220" height="220" fill="fb-red"
+      arc-width="10" start-angle="0" sweep-angle="333.333"/>
+
+    <text id="countdown-counter" font-family="System-Bold" font-size="60" text-anchor="middle" x="50%" y="50%+15" fill="white">
+      24:59
+    </text>
+
+    <text id="interval-counter" font-family="System-Bold" font-size="32" text-anchor="middle" x="50%" y="30%" fill="white">
+      11/12
+    </text>
+
+    <text id="time-text" font-family="System-Regular" font-size="28" text-anchor="middle" x="50%" y="77%" fill="white">
+      22:38
+    </text>
+  </section>
+  
+ -----
+  
+  <text id="demotext" x="50%" y="10%">Hello World!</text>
+  
+  <svg viewport-fill="lightblue">
+  
+  <g>
+  <arc class="arcs" id="arc_time" x="25%" y="25%" width="150" height="150" fill="black"
+    arc-width="12" start-angle="-135" sweep-angle="270" />
+  </g>
+  <arc class="arcs" id="arc_laps" x="25%+12" y="25%+12" width="150-24" height="150-24" fill="orange"
+    arc-width="12" start-angle="-135" sweep-angle="270" />
+    
+    
+  <arc class="arcs" id="arc_laps" x="-75" y="-75" width="150" height="150" fill="blue"
+    arc-width="12" start-angle="0" sweep-angle="360" visibility="hidden" />
+    
+  
 </svg>
+  
+  <svg>
+    <!-- TOP LEFT -->
+    <use id="minus10_btn" href="#combo-button-upper-left" fill="fb-black">
+      <set href="combo-button-icon" attributeName="href" to="icons/set_minus.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="icons/set_plus.png"/>
+    </use>
+    <!-- TOP RIGHT -->
+    <use id="plus10_btn" href="#combo-button-upper-right" fill="fb-black">
+      <set href="combo-button-icon" attributeName="href" to="icons/set_plus.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="icons/set_minus.png"/>
+    </use>
+    
+    <!-- BOTTOM RIGHT -->
+    
+    <use id="btn-toggle" href="#combo-button-lower-right" fill="fb-white">
+      <set href="combo-button-icon" attributeName="href" to="icons/play.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="icons/play_press.png"/>
+    </use>
+
+    -->
+    
+    
+    <!-- BOTTOM LEFT - Not used
+    <use id="btn-bl" href="#combo-button-lower-left" fill="fb-white">
+      <set href="combo-button-icon" attributeName="href" to="headphone.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="headphone_press.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+
+
+
+
+
+  </svg>
+
+</svg>
+
